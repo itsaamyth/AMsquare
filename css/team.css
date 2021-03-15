@@ -4528,26 +4528,25 @@ small {
   .logo{
     float: left;
     left: 15px;
-    width: 150px;
-    height: 150px;
-   background: url(LogoAnureza.png) left/contain no-repeat;
-    margin-top: -1%;
-  
+    width: 100px;
+    height: 100px;
+   background: url(amsquarelogo.png) left/contain no-repeat;
+   margin-top: 5px;
   }
   @media only screen and (min-width: 1024px) and (max-height: 1366px)
-    and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
-    /* ... ipad pro*/
-.logo{
-  float: left;
-  left: 15px;
-  width: 140px;
-  height: 140px;
- background: url(LogoAnureza.png) left/contain no-repeat;
-  margin-top: -1%;
-  margin-left:-40px;
-
-}
-} 
+      and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
+      /* ... ipad pro*/
+  .logo{
+    float: left;
+    left: 15px;
+    width: 140px;
+    height: 140px;
+   background: url() left/contain no-repeat;
+    margin-top: -1%;
+    margin-left:-40px;
+  
+  }
+  } 
   
   @media screen and (min-width: 992px) {
     .header {
@@ -4560,8 +4559,10 @@ small {
       position: relative;
     }
     .logo{
-      margin: 0;
-      margin-top: -25px;
+      margin-top:2px;
+      width:100px;
+      height:100px;
+      margin-left:30px
     }
   }
 
@@ -4993,6 +4994,10 @@ small {
 .nav .main-menu > li:hover{
     color: #3BA2FF;
   }
+  .nav .main-menu .active {
+    color:#3ba2ff
+  }
+
 
 .header-2 .nav .main-menu > li {
   line-height: 75px;
