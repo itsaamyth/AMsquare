@@ -4526,11 +4526,20 @@ small {
   position: absolute;
 } 
 .logo{
+  display: none;
   float: left;
   left: 15px;
   width: 100px;
   height: 100px;
  background: url(amsquarelogo.png) left/contain no-repeat;
+ margin-top: 5px;
+}
+.logo2{
+  float: left;
+  left: 15px;
+  width: 250px;
+  height: 100px;
+ background: url(amsquare.png) left/contain no-repeat;
  margin-top: 5px;
 }
 @media only screen and (min-width: 1024px) and (max-height: 1366px)
@@ -4552,6 +4561,9 @@ small {
   .header {
     z-index: 100;
   }
+  .logo{
+    display: none;
+  }
 }
 
 @media (max-width: 992px) {
@@ -4559,10 +4571,14 @@ small {
     position: relative;
   }
   .logo{
+    display: block;
     margin-top:2px;
-    width:100px;
+    width:70px;
     height:100px;
-    margin-left:30px
+    margin-left:0px
+  }
+  .logo2{
+    display: none;
   }
 }
 
