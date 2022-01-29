@@ -7,7 +7,6 @@ jQuery("#carousel").owlCarousel({
     
     animateOut: 'fadeOut',
     animateIn: 'fadeIn',
-
     responsiveClass: true,
     autoHeight: true,
     autoplayTimeout: 7000,
